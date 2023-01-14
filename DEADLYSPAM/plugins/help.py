@@ -4,12 +4,10 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 from DEADLYSPAM import CMD_HNDLR as hl
-    
-HELP_PIC = "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
 
-DEAD_Help = "🔥 Dᴇᴀᴅʟʏ Sᴘᴀᴍ Bᴏᴛ 🔥\n\n"
+DEAD_Help = "🔥 Sanki Sᴘᴀᴍ Bᴏᴛ 🔥\n\n"
  
-DEAD_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴇᴀᴅʟʏ ʙᴏᴛ__\n\n"
+DEAD_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʙᴏᴛ__\n\n"
 
 DEAD_Help += f" ↧ sᴘᴀᴍʙᴏᴛ 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -25,7 +23,7 @@ DEAD_Help += f" `!raid` - to raid\n `!replyraid` - to active reply raid\n `!drep
 
 DEAD_Help += f" !pornspam - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-DEAD_Help += f"© @TheDeadlyBots\n"
+DEAD_Help += f"© @Its_Sanki\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -36,8 +34,8 @@ async def help(event):
                                   caption=DEAD_Help,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Deadly_spambot"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Deadly_spam_bot")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Its_Sanki"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Its_Sanki")
         ] 
         ]
         )
